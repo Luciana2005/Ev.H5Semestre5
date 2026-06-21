@@ -1,0 +1,1176 @@
+<!DOCTYPE html><html class="light" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description"
+content="AURA es una tienda de moda premium donde puedes crear outfits personalizados y expresar tu estilo único.">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>AURA | High-End Fashion Editorial</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  </head>
+<body class="duration-300">
+    <!-- Top Navigation AppBar -->
+<header class="fixed top-5 left-0 w-full z-50 px-6">
+
+    <nav class="max-w-7xl mx-auto bg-white rounded-full px-8 py-4 shadow-md">
+
+        <div class="flex justify-between items-center">
+
+            <!-- Logo -->
+            <div class="text-3xl font-bold text-green-700">
+                AURA
+            </div>
+
+            <!-- Menú -->
+            <ul class="flex gap-10 text-gray-700">
+
+    <li>
+        <a href="#inicio" class="hover:text-green-700 transition">
+            Inicio
+        </a>
+    </li>
+
+    <li>
+        <a href="#coleccion" class="hover:text-green-700 transition">
+            Colección
+        </a>
+    </li>
+
+    <li>
+        <a href="#build-look" class="hover:text-green-700 transition">
+            Crea tu outfit
+        </a>
+    </li>
+
+    <li>
+        <a href="#conocenos" class="hover:text-green-700 transition">
+            Nosotros
+        </a>
+    </li>
+
+</ul>
+
+            <!-- Derecha -->
+            <div class="flex items-center gap-6">
+
+                <button id="modoOscuro"
+                class="w-12 h-12 rounded-full
+                bg-[#F3F0EA]
+                hover:bg-[#E56A2E]
+                hover:text-white
+                duration-300
+                flex items-center justify-center">
+
+                    <span class="material-symbols-outlined">
+
+                        dark_mode
+
+                    </span>
+
+                </button>
+
+                <!-- BOTÓN DEL CARRITO  -->
+                <button id="btnBolsa"
+                        class="relative text-on-surface-variant hover:opacity-70 transition-opacity">
+
+                    <span class="material-symbols-outlined">
+                        shopping_bag
+                    </span>
+
+                    <span id="contadorCarrito"
+                          class="absolute -top-2 -right-2
+                          bg-[#E56A2E] text-white
+                          text-xs w-5 h-5 rounded-full
+                          flex items-center justify-center">
+
+                        0
+
+                    </span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<!-- Main Content -->
+<main class="mt-20">
+<!-- Hero Section -->
+<section id="inicio" class="mt-32 px-6">
+
+    <div class="max-w-7xl mx-auto">
+
+        <div class="bg-[#E56A2E] rounded-[50px] overflow-hidden shadow-lg">
+
+            <div class="grid lg:grid-cols-2 items-center">
+
+                <!-- Texto -->
+                <div class="p-10 lg:p-20 text-white">
+
+                    <p class="uppercase tracking-[5px] text-sm mb-6">
+                        New Collection 2026
+                    </p>
+
+                    <h1 class="text-6xl lg:text-8xl font-bold leading-none mb-8">
+                        CREATE<br>
+                        YOUR<br>
+                        STYLE
+                    </h1>
+
+                    <p class="text-lg text-white/80 max-w-md mb-10">
+                        Expresa tu personalidad y diseña prendas únicas.
+                        Descubre una colección pensada para destacar y crear
+                        un estilo completamente tuyo.
+                    </p>
+
+                    <div class="flex flex-wrap gap-5">
+
+                        <a href="#coleccion"
+                            class="border-2 border-white text-white px-8 py-4 rounded-full
+                            hover:bg-white hover:text-[#E56A2E]
+                            duration-300">
+
+                                Explorar colección
+
+                        </a>
+
+                        <a href="#build-look"
+                        class="border-2 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-[#E56A2E] duration-300">
+
+                            Crear outfit
+
+                        </a>
+
+                    </div>
+
+                    <!-- Etiquetas -->
+                    <div class="flex gap-4 mt-10 flex-wrap">
+
+                        <div class="bg-white/20 px-6 py-3 rounded-full">
+                            Custom Design
+                        </div>
+
+                        <div class="bg-white/20 px-6 py-3 rounded-full">
+                            Premium Quality
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Imagen -->
+                <div class="relative h-full">
+
+                    <img
+                    src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=1000&q=80&auto=format"
+                    fetchpriority="high"
+                    alt="Modelo luciendo la colección principal de AURA"
+                    width="1000"
+                    height="1200"
+                    class="w-full h-full object-cover">
+
+                    <!-- Tarjeta flotante -->
+                    <div class="absolute top-8 right-8 bg-white px-6 py-4 rounded-3xl shadow-md">
+
+                        <p class="text-gray-400 text-sm">
+                            New Arrival
+                        </p>
+
+                        <h3 class="text-2xl font-bold text-[#E56A2E]">
+                            AURA
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<div class="mt-8 text-center">
+<p class="font-headline-sm text-headline-sm text-on-surface mb-2">Tu estilo, tus reglas.</p>
+</div>
+</div>
+</section>
+<!-- New Arrivals -->
+<section id="coleccion" class="py-stack-lg bg-primary-container/10 px-margin-mobile"><div class="max-w-container-max mx-auto">
+<div class="flex justify-between items-end mb-12">
+<h2 class="font-display-lg-mobile text-display-lg-mobile text-primary">Recién Llegado</h2>
+</div>
+<div class="grid md:grid-cols-2 gap-12 mt-16 max-w-6xl mx-auto">
+<!-- Product 1 -->
+<div class="producto group cursor-pointer"
+     data-product="top">
+
+    <div class="bg-[#BFD0F2] rounded-[35px] p-6 overflow-hidden
+                transition duration-500 hover:-translate-y-2">
+
+        <img
+        src="https://i.pinimg.com/originals/3b/3e/cf/3b3ecfaef9205c4710aa6036a720b9ce.png"
+        loading="lazy"
+        alt="Top Minimal Azul de la colección AURA"
+        class="w-full h-[320px] object-contain group-hover:scale-105 duration-500">
+
+    </div>
+
+    <div class="mt-5">
+        <h3 class="font-semibold text-xl">
+            Top Minimal Azul
+        </h3>
+
+        <p class="text-gray-500 mt-2">
+            Premium Collection
+        </p>
+
+        <p class="text-2xl font-bold mt-4 text-[#E56A2E]">
+            180 Bs.
+        </p>
+    </div>
+
+</div>
+<!-- Product 2 -->
+<div class="producto group cursor-pointer"
+     data-product="chaqueta">
+
+    <div class="bg-[#F8D6E0] rounded-[35px] p-6 overflow-hidden
+                transition duration-500 hover:-translate-y-2">
+
+        <img
+        src="https://i.pinimg.com/originals/e4/b5/cc/e4b5cce27138cb6c85392820ed8615b5.png"
+        loading="lazy"
+        alt="Chaqueta Urban de la colección AURA"
+        class="w-full h-[320px] object-contain group-hover:scale-105 duration-500">
+
+    </div>
+
+    <div class="mt-5">
+        <h3 class="font-semibold text-xl">
+            Chaqueta Urban 
+        </h3>
+
+        <p class="text-gray-500 mt-2">
+            Premium Collection
+        </p>
+
+        <p class="text-2xl font-bold mt-4 text-[#E56A2E]">
+            450 Bs.
+        </p>
+    </div>
+
+</div>
+<!-- Product 3 -->
+<div class="producto group cursor-pointer"
+     data-product="jeans">
+
+    <div class="bg-[#E7D7B6] rounded-[35px] p-6 overflow-hidden
+                transition duration-500 hover:-translate-y-2">
+
+        <img
+        src="https://i.pinimg.com/originals/02/c6/f4/02c6f404f2e537c814794e2e1e2d7534.png"
+        loading="lazy"
+        alt="Jeans de la colección AURA"
+        class="w-full h-[320px] object-contain group-hover:scale-105 duration-500">
+
+    </div>
+
+    <div class="mt-5">
+        <h3 class="font-semibold text-xl">
+            Jeans
+        </h3>
+
+        <p class="text-gray-500 mt-2">
+            Premium Collection
+        </p>
+
+        <p class="text-2xl font-bold mt-4 text-[#E56A2E]">
+            320 Bs.
+        </p>
+    </div>
+
+</div>
+<!-- Product 4 -->
+<div class="producto group cursor-pointer"
+     data-product="falda">
+
+    <div class="bg-[#D5E7D4] rounded-[35px] p-6 overflow-hidden
+                transition duration-500 hover:-translate-y-2">
+
+        <img
+        src="https://i.pinimg.com/originals/11/bc/0e/11bc0e9d9fdb7ce2bd1322f091c7887f.png"
+        loading="lazy"
+        alt="Falda Satin de la colección AURA"
+        class="w-full h-[320px] object-contain group-hover:scale-105 duration-500">
+
+    </div>
+
+    <div class="mt-5">
+        <h3 class="font-semibold text-xl">
+            Falda Satin 
+        </h3>
+
+        <p class="text-gray-500 mt-2">
+            Premium Collection
+        </p>
+
+        <p class="text-2xl font-bold mt-4 text-[#E56A2E]">
+            280 Bs.
+        </p>
+    </div>
+
+</div>
+</section>
+<!-- Build Your Look -->
+<section id="build-look"
+class="py-32 px-6 bg-[#F3F0EA] overflow-hidden">
+
+    <h2 class="text-5xl md:text-7xl font-bold text-center mb-20 text-[#E56A2E]">
+
+       ARMA TÚ LOOK
+
+    </h2>
+
+    <div class="relative max-w-3xl mx-auto h-[650px]">
+
+    <!-- Modelo -->
+    <div class="absolute left-1/2 top-1/2
+    -translate-x-1/2 -translate-y-1/2
+    w-[400px]
+    rounded-[50px]
+    overflow-hidden
+    shadow-lg bg-white">
+
+        <img
+        class="w-full h-full object-cover"
+        src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5N81BNXErK-WU8EpBXYDOOO3P0rU2Ky7xSmnll3F6C60JM0EMMl6p-RB9fplgf01-Ww4iFma5e4C91XBxG_jnGComMEodJ_gggaI3G9sOCHfeu2tJPPb1n0jEQ8ZC-tCKPO8NlGy4rUdnlWm8XgSHSGDcBrwCCoHjK8dJuJ-SJWbixrnwWo33uzaCGMU3ADKkFMek8IVRYwNC2J9lJjJ1YnjGW2IFCbhREwNbhAIJ0683Fk64sp9qcMK28hXM52Dr93_t01s4p43M"
+        loading="lazy" width="400" height="650"
+        alt="Modelo base para crear un outfit personalizado">
+        <div class="absolute inset-0">
+
+    <!-- Top -->
+    <img id="lookTop"
+src=""
+class="hidden absolute left-1/2 top-[28%]
+-translate-x-1/2
+w-[180px]
+z-10">
+
+    <!-- Parte inferior -->
+    <img id="lookBottom"
+    src=""
+    class="hidden absolute bottom-[100px] left-1/2 -translate-x-1/2 w-56 z-10">
+
+</div>
+
+    </div>
+
+
+    <!-- TOP -->
+    <div class="absolute top-16 left-20
+    bg-white p-5 rounded-[30px]
+    shadow-md flex items-center gap-4">
+
+        <div class="w-14 h-14 rounded-2xl overflow-hidden">
+
+    <img
+    src="https://i.pinimg.com/originals/3b/3e/cf/3b3ecfaef9205c4710aa6036a720b9ce.png"
+    loading="lazy"
+    alt="Top seleccionado para el outfit"
+    class="w-full h-full object-cover">
+
+</div>
+
+        <div>
+
+            <p class="font-bold">
+                Top
+            </p>
+
+            <p class="text-gray-500">
+                180 Bs.
+            </p>
+
+        </div>
+
+        <button id="btnTop"
+class="w-10 h-10 rounded-full bg-[#E56A2E]
+text-white flex items-center justify-center
+hover:scale-110 duration-300">
+
++
+
+</button>
+
+    </div>
+
+
+    <!-- JEANS -->
+    <div class="absolute top-32 right-20
+    bg-white p-5 rounded-[30px]
+    shadow-md flex items-center gap-4"
+    style="animation-delay:1s;">
+
+<div class="w-16 h-16 rounded-2xl overflow-hidden bg-[#E7D7B6]">
+
+    <img
+    src="https://i.pinimg.com/originals/02/c6/f4/02c6f404f2e537c814794e2e1e2d7534.png"
+    loading="lazy"
+    alt="Jeans de la colección AURA"
+    class="w-full h-full object-contain">
+
+</div>
+        <div>
+
+            <p class="font-bold">
+                Jeans
+            </p>
+
+            <p class="text-gray-500">
+                320 Bs.
+            </p>
+
+        </div>
+
+        <button id="btnJeans"
+class="w-10 h-10 rounded-full bg-[#E56A2E]
+text-white flex items-center justify-center
+hover:scale-110 duration-300">
+
++
+
+</button>
+
+    </div>
+
+    <!-- FALDA -->
+    <div class="absolute bottom-16 right-20
+    bg-white p-5 rounded-[30px]
+    shadow-md flex items-center gap-4"
+    style="animation-delay:3s;">
+
+<div class="w-16 h-16 rounded-2xl overflow-hidden bg-[#D5E7D4]">
+
+    <img
+    src="https://i.pinimg.com/originals/11/bc/0e/11bc0e9d9fdb7ce2bd1322f091c7887f.png"
+    loading="lazy"
+    alt="Falda Satin de la colección AURA"
+    class="w-full h-full object-contain">
+
+</div>
+        <div>
+
+            <p class="font-bold">
+                Falda
+            </p>
+
+            <p class="text-gray-500">
+                280 Bs.
+            </p>
+
+        </div>
+
+        <button id="btnFalda"
+class="w-10 h-10 rounded-full bg-[#E56A2E]
+text-white flex items-center justify-center
+hover:scale-110 duration-300">
+
++
+
+</button>
+
+    </div>
+
+</div>
+
+
+    <!-- Total -->
+    <div class="mt-16 max-w-xl mx-auto bg-white p-10 rounded-[40px]
+    shadow-md text-center">
+
+        <p class="text-gray-400 uppercase tracking-[5px] mb-3">
+
+            Total Outfit
+
+        </p>
+
+        <p id="totalOutfit"
+class="text-5xl font-bold text-[#E56A2E] mb-8">
+
+    0 Bs.
+
+</p>
+
+        <button
+id="btnOutfitCarrito"
+class="bg-[#E56A2E]
+text-white
+px-10
+py-5
+rounded-full
+border-2 border-[#E56A2E]
+hover:bg-white
+hover:text-[#E56A2E]
+duration-300">
+
+    Añadir todo al carrito
+
+</button>
+
+    </div>
+
+</section>
+
+<!-- About Us -->
+<section id="conocenos"
+class="py-32 px-6 bg-white">
+
+    <div class="max-w-7xl mx-auto">
+
+        <!-- Encabezado -->
+        <div class="text-center mb-20">
+
+            <p class="uppercase tracking-[5px]
+            text-gray-400 mb-4">
+
+                About us
+
+            </p>
+
+            <h2 class="text-5xl md:text-7xl font-bold text-[#E56A2E]">
+
+                AURA
+
+            </h2>
+
+        </div>
+
+
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+            <!-- Imagen -->
+            <div
+            class="rounded-[50px] overflow-hidden shadow-md">
+
+                <img
+                src="https://i.pinimg.com/736x/64/a4/4c/64a44c2d199f65ae111e9e77eb2c382d.jpg"
+                loading="lazy"
+                alt="Campaña editorial de la marca AURA"
+                class="w-full h-[700px] object-cover">
+
+            </div>
+
+
+            <!-- Texto -->
+            <div>
+
+                <h3 class="text-5xl font-bold mb-8">
+
+                    Diseña.
+                    Crea.
+                    Expresa.
+
+                </h3>
+
+                <p class="text-gray-500 leading-8 text-lg mb-10">
+
+                    En AURA creemos que la moda es una forma de expresar
+                    personalidad, creatividad y autenticidad.
+                    Creamos prendas para personas que buscan destacar
+                    y construir un estilo único.
+
+                </p>
+
+
+                <button
+                id="btnConocenos"
+                class="bg-[#E56A2E]
+                text-white
+                px-10
+                py-5
+                rounded-full
+                border-2 border-[#E56A2E]
+                hover:bg-white
+                hover:text-[#E56A2E]
+                duration-300">
+
+                    Nuestra Historia
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Summary & Checkout -->
+<section id="carrito"
+class="py-32 px-6 bg-[#F3F0EA]">
+
+    <div class="bg-white
+    max-w-6xl mx-auto
+    rounded-[50px]
+    shadow-lg
+    p-12">
+
+        <div class="grid md:grid-cols-2 gap-16">
+
+            <!-- Columna izquierda -->
+            <div>
+
+                <h3 class="text-2xl font-bold mb-8 text-[#E56A2E]">
+
+                    Datos de Envío
+
+                </h3>
+
+                <div class="space-y-5">
+                  <label
+                    for="nombre"
+                    class="block mb-2 text-sm text-gray-500">
+
+                        Nombre completo
+
+                    </label>
+
+                    <input
+                    id="nombre"
+                    type="text"
+                    placeholder="Ingresa tu nombre completo"
+                    class="w-full p-5 rounded-3xl border border-gray-200">
+                    <label
+                    for="celular"
+                    class="block mb-2 text-sm text-gray-500">
+
+                        Celular
+
+                    </label>
+
+                    <input
+                    id="celular"
+                    type="tel"
+                    placeholder="(+591)"
+                    class="w-full p-5 rounded-3xl border border-gray-200 focus:outline-none">
+
+                    <label
+                    for="ciudad"
+                    class="block mb-2 text-sm text-gray-500">
+
+                        Ciudad
+
+                    </label>
+                    <input
+                    id="ciudad"
+                    type="text"
+                    placeholder="Ciudad"
+                    class="w-full p-5 rounded-3xl border border-gray-200">
+                    <label
+                    for="direccion"
+                    class="block mb-2 text-sm text-gray-500">
+
+                        Dirección de envío
+
+                    </label>
+    
+                    <input
+                    id="direccion"
+                    type="text"
+                    placeholder="Dirección de envío"
+                    class="w-full p-5 rounded-3xl border border-gray-200">
+                    <label
+                    for="referencia"
+                    class="block mb-2 text-sm text-gray-500">
+
+                        Referencia
+
+                    </label>
+                    <textarea
+                    id="referencia"
+                    placeholder="Referencia (casa azul, frente a la plaza, etc.)"
+                    class="w-full h-32 p-5 rounded-3xl border border-gray-200 resize-none"></textarea>
+
+                </div>
+
+            </div>
+
+
+            <!-- Columna derecha -->
+            <div>
+
+                <h3 class="uppercase tracking-[4px]
+                mb-8 text-gray-400">
+
+                    Resumen de Compra
+
+                </h3>
+                <div id="listaCarrito"
+                    class="space-y-6 mb-10">
+
+                </div>
+
+                <div class="space-y-4 mb-8">
+
+                    <div class="flex justify-between">
+
+                        <span>Subtotal</span>
+                        <span id="subtotal">0 Bs.</span>
+
+                    </div>
+
+                    <div class="flex justify-between">
+
+                        <span>Envío</span>
+                        <span id="envio">15 Bs.</span>
+
+                    </div>
+
+                    <div class="flex justify-between
+                    text-3xl font-bold
+                    text-[#E56A2E]
+                    pt-6 border-t">
+
+                        <span>Total</span>
+                        <span id="total">15 Bs.</span>
+
+                    </div>
+
+                </div>
+
+
+                <p class="uppercase text-sm tracking-[4px]
+                text-gray-400 mb-5">
+
+                    Método de Pago
+
+                </p>
+
+
+                <div class="grid grid-cols-2 gap-4 mb-10">
+
+                    <button class="metodoPago border rounded-3xl p-5 duration-300">
+                        QR Bancario
+                    </button>
+
+                    <button class="metodoPago border rounded-3xl p-5 duration-300">
+                        Transferencia
+                    </button>
+
+                    <button class="metodoPago border rounded-3xl p-5 duration-300">
+                        Tarjeta
+                    </button>
+
+                    <button class="metodoPago border rounded-3xl p-5 duration-300">
+                        Contra entrega
+                    </button>
+
+                </div>
+
+
+                <button
+                id="finalizarCompra"
+                class="w-full bg-[#E56A2E]
+                text-white py-6 rounded-full
+                border-2 border-[#E56A2E]
+                hover:bg-white
+                hover:text-[#E56A2E]
+                duration-300">
+
+                    Finalizar compra
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+</main>
+<section class="py-24 text-center">
+
+    <h2 class="text-6xl font-bold mb-8">
+
+        Define tu estilo con
+
+        <span class="text-[#E56A2E]">
+
+            AURA
+
+        </span>
+
+    </h2>
+
+</section>
+<!-- Footer -->
+<footer class="bg-[#1f1f1f] text-white mt-32 rounded-t-[60px]">
+
+    <div class="max-w-7xl mx-auto px-8 py-20">
+
+        <div class="grid md:grid-cols-4 gap-16">
+
+            <!-- Marca -->
+            <div>
+
+                <h2 class="text-5xl font-bold text-[#E56A2E] mb-6">
+
+                    AURA
+
+                </h2>
+
+                <p class="text-gray-400 leading-8">
+
+                    Diseña. Crea. Expresa.
+                    Una marca creada para quienes quieren
+                    mostrar su esencia a través de la moda.
+
+                </p>
+
+            </div>
+
+
+            <!-- Navegación -->
+
+            <div>
+
+                <h3 class="uppercase tracking-[4px]
+                text-sm text-gray-400 mb-8">
+
+                    Navegación
+
+                </h3>
+
+                <div class="space-y-5">
+
+                    <a href="#inicio"
+                    class="block hover:text-[#E56A2E] duration-300">
+
+                        Inicio
+
+                    </a>
+
+                    <a href="#coleccion"
+                    class="block hover:text-[#E56A2E] duration-300">
+
+                        Colección
+
+                    </a>
+
+                    <a href="#build-look"
+                    class="block hover:text-[#E56A2E] duration-300">
+
+                        Build Your Look
+
+                    </a>
+
+                    <a href="#conocenos"
+                    class="block hover:text-[#E56A2E] duration-300">
+
+                        Nuestra Historia
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Redes -->
+
+            <div>
+
+                <h3 class="uppercase tracking-[4px]
+                text-sm text-gray-400 mb-8">
+
+                    Síguenos
+
+                </h3>
+
+                <div class="space-y-5">
+
+                    <a href="#"
+                    class="block hover:text-[#E56A2E] duration-300">
+
+                        Instagram
+
+                    </a>
+
+                    <a href="#"
+                    class="block hover:text-[#E56A2E] duration-300">
+
+                        TikTok
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- Contacto -->
+
+            <div>
+
+                <h3 class="uppercase tracking-[4px]
+                text-sm text-gray-400 mb-8">
+
+                    Contacto
+
+                </h3>
+
+                <div class="space-y-5 text-gray-400">
+
+                    <p>
+
+                        Cochabamba, Bolivia
+
+                    </p>
+
+                    <p>
+
+                        +591 70000000
+
+                    </p>
+
+                    <p>
+
+                        contacto@aura.com
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Línea -->
+
+        <div class="border-t border-gray-700 mt-20 pt-10
+        flex flex-col md:flex-row justify-between gap-6">
+
+            <p class="text-gray-500">
+
+                © 2026 AURA. Todos los derechos reservados.
+
+            </p>
+
+            <p class="text-gray-500">
+
+                Made with ♥ in Bolivia
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+<div id="modalProducto"
+class="hidden fixed inset-0 bg-black/40 backdrop-blur-sm
+flex items-center justify-center z-50 p-6">
+
+    <div class="bg-white
+    max-w-5xl w-full
+    rounded-[50px]
+    overflow-hidden
+    shadow-lg
+    grid md:grid-cols-2
+    relative">
+
+        <!-- Botón cerrar -->
+        <button id="cerrarModal"
+        class="absolute top-8 right-8
+        w-12 h-12 rounded-full bg-[#F3F0EA]
+        text-3xl hover:bg-[#E56A2E]
+        hover:text-white duration-300">
+
+            ×
+
+        </button>
+
+        <!-- Imagen -->
+        <div class="bg-[#F3F0EA] p-10 flex items-center">
+
+            <img id="modalImagen"
+            loading="lazy"
+            alt="Vista previa del producto seleccionado"
+            class="w-full h-[500px] object-contain">
+
+        </div>
+
+        <!--card  emergenntes -->
+        <div class="p-12">
+
+            <h2 id="modalNombre"
+            class="text-5xl font-bold mb-6">
+            </h2>
+
+            <p id="modalDescripcion"
+            class="text-gray-500 leading-8 text-lg mb-10">
+            </p>
+
+            <p class="uppercase tracking-[4px]
+            text-gray-400 mb-4">
+
+                Color
+
+            </p>
+
+            <div id="modalColores"
+            class="flex gap-4 mb-10">
+            </div>
+
+            <p class="uppercase tracking-[4px]
+            text-gray-400 mb-4">
+
+                Talla
+
+            </p>
+
+            <div class="flex gap-4 mb-10">
+
+                <button class="talla-btn w-16 h-16 rounded-full border">
+                    S
+                </button>
+
+                <button class="talla-btn w-16 h-16 rounded-full border">
+                    M
+                </button>
+
+                <button class="talla-btn w-16 h-16 rounded-full border">
+                    L
+                </button>
+
+            </div>
+
+            <button id="agregarCarrito"
+            class="w-full bg-[#E56A2E]
+            text-white py-5 rounded-full">
+
+                Añadir al carrito
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="infoCard"
+class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm
+flex items-center justify-center z-50 p-6">
+
+    <div
+    class="bg-white rounded-[40px]
+    max-w-2xl p-12 relative shadow-lg">
+
+        <!-- Cerrar -->
+        <button id="cerrarCard"
+        class="absolute top-6 right-8 text-4xl text-gray-400 hover:text-black duration-300">
+
+            ×
+
+        </button>
+
+
+        <p class="uppercase tracking-[5px]
+        text-gray-400 mb-4">
+
+            About us
+
+        </p>
+
+
+        <h2 class="text-5xl font-bold text-[#E56A2E] mb-8">
+
+            AURA
+
+        </h2>
+
+
+        <p class="text-gray-500 leading-8 text-lg mb-6">
+
+            En AURA creemos que la moda es mucho más que ropa.
+            Es una forma de expresar personalidad, creatividad y autenticidad.
+
+        </p>
+
+
+        <p class="text-gray-500 leading-8 text-lg mb-6">
+
+            Nuestra marca nace con la idea de ofrecer prendas modernas y
+            personalizables, permitiendo que cada persona pueda crear un
+            estilo único que refleje quién es realmente.
+
+        </p>
+
+
+        <p class="text-gray-500 leading-8 text-lg">
+
+            Diseña, combina y expresa tu esencia con AURA.
+            Porque el verdadero estilo comienza cuando te atreves
+            a ser tú mismo.
+
+        </p>
+
+    </div>
+
+</div>
+<div id="mensajeCompra"
+class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm
+flex items-center justify-center z-50">
+
+    <div class="bg-white p-12 rounded-[40px]
+    shadow-lg text-center max-w-md">
+
+        <span class="material-symbols-outlined text-7xl text-[#E56A2E] mb-6">
+
+            check_circle
+
+        </span>
+
+        <h2 class="text-4xl font-bold mb-6">
+
+            ¡Pedido realizado!
+
+        </h2>
+
+        <p class="text-gray-500 leading-8 mb-8">
+
+            Gracias por comprar en AURA.
+            Tu pedido fue registrado correctamente.
+
+        </p>
+
+        <button
+        id="cerrarMensaje"
+        class="bg-[#E56A2E]
+        text-white px-8 py-4 rounded-full
+        border-2 border-[#E56A2E]
+        hover:bg-white hover:text-[#E56A2E]
+        duration-300">
+
+            Continuar
+
+        </button>
+
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
+</body></html>

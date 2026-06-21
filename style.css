@@ -1,0 +1,215 @@
+.material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        ::-webkit-scrollbar { width: 0px; background: transparent; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .editorial-shadow { box-shadow: 0 30px 60px rgba(114, 87, 95, 0.04); }
+        .glass-effect { backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+        
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .animate-float { animation: float 6s ease-in-out infinite; }
+        html {
+    scroll-behavior: smooth;
+}
+body{
+    min-height:max(884px,100dvh);
+    background:#F3F0EA;
+    color:#1f1f1f;
+    transition:.4s;
+}
+
+
+/* ===== MODO OSCURO ===== */
+
+body.dark{
+
+    background:#1E1E1E;
+    color:white;
+
+}
+
+
+/* Secciones */
+
+body.dark section{
+
+    background:#1E1E1E !important;
+
+}
+
+
+/* Navbar */
+
+body.dark nav{
+
+    background:#2B2B2B !important;
+
+}
+
+
+/* Tarjetas blancas */
+
+body.dark .bg-white{
+
+    background:#2B2B2B !important;
+
+}
+
+
+/* Textos grises */
+
+body.dark .text-gray-400,
+body.dark .text-gray-500,
+body.dark .text-gray-700{
+
+    color:#D1D5DB !important;
+
+}
+
+
+/* Bordes */
+
+body.dark .border{
+
+    border-color:#555 !important;
+
+}
+
+
+/* Inputs */
+
+body.dark input,
+body.dark textarea,
+body.dark select{
+
+    background:#353535 !important;
+    color:white !important;
+    border-color:#555 !important;
+
+}
+
+
+/* Placeholder */
+
+body.dark input::placeholder,
+body.dark textarea::placeholder{
+
+    color:#A1A1AA;
+
+}
+
+
+/* Modal de productos */
+
+body.dark #modalProducto .bg-white{
+
+    background:#2B2B2B !important;
+
+}
+
+
+/* Ventana historia */
+
+body.dark #infoCard .bg-white{
+
+    background:#2B2B2B !important;
+
+}
+
+
+/* Ventana compra finalizada */
+
+body.dark #mensajeCompra .bg-white{
+
+    background:#2B2B2B !important;
+
+}
+
+
+/* Botones de talla */
+
+body.dark .talla-btn{
+
+    border-color:#666;
+
+}
+
+
+/* Tarjetas del carrito */
+
+body.dark #listaCarrito > div{
+
+    background:#353535 !important;
+
+}
+
+
+/* Métodos de pago */
+
+body.dark .metodoPago{
+
+    background:#2B2B2B;
+
+}
+
+
+/* Sombras */
+
+body.dark .shadow-md,
+body.dark .shadow-lg{
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.4);
+
+}
+
+
+/* Scroll */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#F3F0EA;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#E56A2E;
+    border-radius:20px;
+
+}
+
+body.dark::-webkit-scrollbar-track{
+
+    background:#1E1E1E;
+
+}
+
+
+/* Animaciones */
+
+body,
+section,
+nav,
+button,
+input,
+textarea,
+select{
+
+    transition:
+    background-color .3s,
+    color .3s,
+    border-color .3s,
+    box-shadow .3s;
+
+}
